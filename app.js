@@ -20,10 +20,8 @@ imprimirTexto('h2', 'Preenche abaixo o nome dos amigos');
 function sorteioAleatorio(){
     let amigo = parseInt(Math.random() * listanomes.length);
     console.log(`Indice: ${amigo}`);
-    console.log(`Amigo sorteado: `+ listanomes[amigo]);
-
+    return listanomes[amigo];
 }
-
 function adicionarAmigo(){
     let EntradaNome = document.querySelector('.input-name');
     let nome = EntradaNome.value.trim();
@@ -32,18 +30,18 @@ function adicionarAmigo(){
         listanomes.push(nome);
         limparCampo();
         imprimirLista();
-        
     }else{
         alert('Por favor digite um campo válido!!!');
     }
    
 }
-
 function sortearAmigo(){
     let botaoSortear = document.querySelector('.button-draw');
     console.log('Botão Sortear');
     console.log(listanomes);
-    sorteioAleatorio();
+    let ul = document.querySelector('.result-list');
+    let amigoSorteado = sorteioAleatorio();
+    ul.innerHTML = `<li> Amigo Sorteado: ${amigoSorteado} </li>`;
     botaoSortear.disabled = false;
     
 }
