@@ -1,5 +1,6 @@
 //O principal objetivo deste desafio é fortalecer suas habilidades em lógica de programação. Aqui você deverá desenvolver a lógica para resolver o problema.
 let listanomes = [];
+let listaindiceSorteados = [];
 
 
 
@@ -7,6 +8,7 @@ function imprimirTexto(tag, texto){
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
 }
+imprimirTexto('h2', 'Preenche abaixo o nome dos amigos');
 function limparCampo(){
     let EntradaNome = document.querySelector('.input-name');
     EntradaNome.value = '';
@@ -15,13 +17,21 @@ function imprimirLista(){
    let ul = document.querySelector('#listaAmigos'); 
    ul.innerHTML = listanomes.map(nome => `<li>${nome}</li>`).join('');
 }
-imprimirTexto('h2', 'Preenche abaixo o nome dos amigos');
-
 function sorteioAleatorio(){
     let amigo = parseInt(Math.random() * listanomes.length);
     console.log(`Indice: ${amigo}`);
-    return listanomes[amigo];
-}
+    if (listanomes.length == listaindiceSorteados.length){
+        return listaindiceSorteados = [];
+    }
+    if (listaindiceSorteados.includes(amigo)){
+        return sorteioAleatorio();
+    } else {
+        listaindiceSorteados.push(amigo);
+        console.log(amigo);
+        console.log("Indice de nuemros sorteados: " + listaindiceSorteados);
+        return listanomes[amigo];
+    }
+}    
 function adicionarAmigo(){
     let EntradaNome = document.querySelector('.input-name');
     let nome = EntradaNome.value.trim();
@@ -32,8 +42,7 @@ function adicionarAmigo(){
         imprimirLista();
     }else{
         alert('Por favor digite um campo válido!!!');
-    }
-   
+    } 
 }
 function sortearAmigo(){
     let botaoSortear = document.querySelector('.button-draw');
@@ -42,8 +51,7 @@ function sortearAmigo(){
     let ul = document.querySelector('.result-list');
     let amigoSorteado = sorteioAleatorio();
     ul.innerHTML = `<li> Amigo Sorteado: ${amigoSorteado} </li>`;
-    botaoSortear.disabled = false;
-    
+    botaoSortear.disabled = false; 
 }
 
 
