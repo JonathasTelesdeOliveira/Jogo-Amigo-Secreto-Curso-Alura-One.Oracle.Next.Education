@@ -1,6 +1,8 @@
 ## 🚀   Bem Vindo ao Jogo do Amigo secreto ! 
 🧠   Aqui você pode cadastrar os nomes dos participantes e realize o sorteio de forma simples e prática.
 
+✨ Projeto
+
 ### 👨‍🚀   Como Funciona: 
 
 1. Adiciona os nomes dos participantes:
@@ -18,47 +20,25 @@
     Clique no botão SORTEAR AMIGO 
     para visualizar o botão sortear amigo.
 
-    ![Sorteio](image.png)
+    ![Sorteio](<assets/Captura de tela 2025-08-13 021449.png>)
 
 ### 🛠 Tecnologias
 Este projeto foi desenvolvido com as seguintes tecnologias:
 
-📚  HTML5
-🎨  CSS3
-📜  JavaScript
-    Git e Github
+![HTML5](assets/html5.svg)
+![CSS3](assets/css.svg)      
+![JavaScript](assets/javascript.svg)
+![Git](assets/git.svg)
+![Github](assets/github.svg)
 
-✨ Projeto
-
-<!-- Installation -->
 
 ### Installation 👩‍💻
 
-_Abaixo está um exemplo de como você pode instruir seu público a instalar e configurar seu aplicativo. Este modelo não depende de nenhuma dependência ou serviço externo._
+1. **Clone o repositório** 
 
-1. Get a free API Key at [https://example.com](https://example.com)
-
-2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+   git clone https://github.com/JonathasTelesdeOliveira/Jogo-Amigo-Secreto-Curso-Alura-One.Oracle.Next.Education.git
+  
 
 #### Contatos:
 
