@@ -5,31 +5,37 @@
 
 ### 👨‍🚀   Como Funciona: 
 
-1. Adiciona os nomes dos participantes:
+1. Adiciona os nomes dos participantes: <br>
     Basta inserir o nome do amigo e clicar no botão Sortear.
 
     ![Adicionar Amigos](<assets/Captura de tela 2025-08-13 021150 copy.png>)
 
-2.  Confirme os nomes:
+2.  Confirme os nomes: <br>
     Após adicionar todos os participantes, verifique se todos 
     nomes foram cadastrados corretamente.
 
     ![Lista de Amigos](<assets/Captura de tela 2025-08-13 021150 copy.png>)
 
-3.  Realize o sorteio:
+3.  Realize o sorteio: <br>
     Clique no botão SORTEAR AMIGO 
     para visualizar o botão sortear amigo.
 
     ![Sorteio](<assets/Captura de tela 2025-08-13 021449.png>)
 
 ### 🛠 Tecnologias
-Este projeto foi desenvolvido com as seguintes tecnologias:
+Este projeto foi desenvolvido com as seguintes tecnologias: <br>
 
-![HTML5](assets/html5.svg)
-![CSS3](assets/css.svg)      
-![JavaScript](assets/javascript.svg)
-![Git](assets/git.svg)
-![Github](assets/github.svg)
+**HTML5**: Estruturação da página. <br>
+**CSS3**: Estilização e layout.   <br>  
+**JavasScript**: Funcionalidade interativas <br>
+**GIT**: Sistema de controle de versão ultizado prar gerenciar e registrar o histórico da alterações do código-fonte diretamento no VS CODE <br>
+**GitHub**: Plataforma de hospedagem de repositórios Git, ultizada como repositório remoto e compartilhar o código do projeto. <br>
+
+<img src="assets/html5.svg" width="50" height="50" alt="HTML5">
+<img src="assets/css.svg" width="50" height="50" alt="css3">
+<img src="assets/javascript.svg" width="50" height="50" alt="JavaScript">
+<img src="assets/git.svg" width="50" height="50" alt="Git">
+<img src="assets/github.svg" width="50" height="50" alt="GitHub">
 
 
 ### Installation 👩‍💻
