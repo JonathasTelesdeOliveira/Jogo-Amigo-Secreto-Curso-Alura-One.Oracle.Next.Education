@@ -15,7 +15,7 @@ function limparCampo(){
 }
 function imprimirLista(){
    let ul = document.querySelector('#listaAmigos'); 
-   ul.innerHTML = listanomes.map(nome => `<li>${nome}</li>`).join('');
+   ul.innerHTML = listanomes.map(nome => `<li class="azul">${nome}</li>`).join('');
 }
 function sorteioAleatorio(){
     let amigo = parseInt(Math.random() * listanomes.length);
@@ -50,7 +50,7 @@ function sortearAmigo(){
     console.log(listanomes);
     let ul = document.querySelector('.result-list');
     let amigoSorteado = sorteioAleatorio();
-    ul.innerHTML = `<li> Amigo Sorteado: ${amigoSorteado} </li>`;
+    ul.innerHTML = `<li> O Amigo Sorteado é: ${amigoSorteado} </li>`;
     botaoSortear.disabled = false; 
 }
 
