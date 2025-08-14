@@ -5,18 +5,30 @@
 
 ### 👨‍🚀   Como Funciona: 
 
+<<<<<<< HEAD
 1. **Adiciona os nomes dos participantes:**
+=======
+1. Adiciona os nomes dos participantes: <br>
+>>>>>>> 60d8c03c1acc338acb0e746e47544c2802ecc4e3
     Basta inserir o nome do amigo e clicar no botão Sortear.
 
     ![Adicionar Amigos](<assets/Captura de tela 2025-08-13 021150 copy.png>)
 
+<<<<<<< HEAD
 2.  **Confirme os nomes:**
+=======
+2.  Confirme os nomes: <br>
+>>>>>>> 60d8c03c1acc338acb0e746e47544c2802ecc4e3
     Após adicionar todos os participantes, verifique se todos 
     nomes foram cadastrados corretamente.
 
     ![Lista de Amigos](<assets/Captura de tela 2025-08-13 021150 copy.png>)
 
+<<<<<<< HEAD
 3.  **Realize o sorteio:**
+=======
+3.  Realize o sorteio: <br>
+>>>>>>> 60d8c03c1acc338acb0e746e47544c2802ecc4e3
     Clique no botão SORTEAR AMIGO 
     para visualizar o botão sortear amigo.
 
@@ -25,6 +37,7 @@
 ### 🛠 Tecnologias
 Este projeto foi desenvolvido com as seguintes tecnologias: <br>
 
+<<<<<<< HEAD
 <img src="assets/html5.svg" width="50" height="50" alt="HTML5"> 
 
 **HTML5**: Estruturação da página. <br>
@@ -40,6 +53,19 @@ Este projeto foi desenvolvido com as seguintes tecnologias: <br>
 <img src="assets/github.svg" width="50" height="50" alt="GitHub">
 
 **GitHub**: Plataforma de hospedagem de repositórios Git, ultizada como repositório remoto e compartilhar o código do projeto. <br>
+=======
+**HTML5**: Estruturação da página. <br>
+**CSS3**: Estilização e layout.   <br>  
+**JavasScript**: Funcionalidade interativas <br>
+**GIT**: Sistema de controle de versão ultizado prar gerenciar e registrar o histórico da alterações do código-fonte diretamento no VS CODE <br>
+**GitHub**: Plataforma de hospedagem de repositórios Git, ultizada como repositório remoto e compartilhar o código do projeto. <br>
+
+<img src="assets/html5.svg" width="50" height="50" alt="HTML5">
+<img src="assets/css.svg" width="50" height="50" alt="css3">
+<img src="assets/javascript.svg" width="50" height="50" alt="JavaScript">
+<img src="assets/git.svg" width="50" height="50" alt="Git">
+<img src="assets/github.svg" width="50" height="50" alt="GitHub">
+>>>>>>> 60d8c03c1acc338acb0e746e47544c2802ecc4e3
 
 
 ### Installation 👩‍💻
